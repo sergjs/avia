@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/avia/static/css/main.a845e556.chunk.css",
+    "main.css": "/avia/static/css/main.759df898.chunk.css",
     "main.js": "/avia/static/js/main.0a7e9cd0.chunk.js",
     "main.js.map": "/avia/static/js/main.0a7e9cd0.chunk.js.map",
     "runtime-main.js": "/avia/static/js/runtime-main.046eebef.js",
@@ -8,7 +8,7 @@
     "static/js/2.ddc5e8cd.chunk.js": "/avia/static/js/2.ddc5e8cd.chunk.js",
     "static/js/2.ddc5e8cd.chunk.js.map": "/avia/static/js/2.ddc5e8cd.chunk.js.map",
     "index.html": "/avia/index.html",
-    "static/css/main.a845e556.chunk.css.map": "/avia/static/css/main.a845e556.chunk.css.map",
+    "static/css/main.759df898.chunk.css.map": "/avia/static/css/main.759df898.chunk.css.map",
     "static/js/2.ddc5e8cd.chunk.js.LICENSE.txt": "/avia/static/js/2.ddc5e8cd.chunk.js.LICENSE.txt",
     "static/media/Logo.0293420c.png": "/avia/static/media/Logo.0293420c.png",
     "static/media/preloader.c2792c0d.gif": "/avia/static/media/preloader.c2792c0d.gif"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.046eebef.js",
     "static/js/2.ddc5e8cd.chunk.js",
-    "static/css/main.a845e556.chunk.css",
+    "static/css/main.759df898.chunk.css",
     "static/js/main.0a7e9cd0.chunk.js"
   ]
 }
