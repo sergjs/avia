@@ -179,11 +179,12 @@
         width: 335px;
     }
     .blog_departure_flex{
-        width: 100px;
+        width: 110px;
         margin-right: 20px;
     }
     .blog_departure {
         margin-left: 10px;
+        width: 360px;
     }
     .blog_departure_top{
         margin-left: 0;
@@ -193,5 +194,8 @@
     }
     .button_add {
         width: 360px;
+    }
+    .blog_departure_flex_min{
+        width: 75px;
     }
 }

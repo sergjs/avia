@@ -29,7 +29,7 @@ const InfoTickets = ({index}) => {
             <div className={css.blog_departure_top}>{index['origin'] + ' - ' + index['destination']}</div>
             <div className={css.blog_departure_bottom}>{getTime(index.date, index.duration)}</div>
         </div>
-        <div className={css.blog_departure_flex}>
+        <div className={css.blog_departure_flex + ' ' + css.blog_departure_flex_min}>
             <div className={css.blog_departure_top}> В пути</div>
             <div className={css.blog_departure_bottom}>{getTimeWay(index.duration)}</div>
         </div>
