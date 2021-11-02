@@ -5,10 +5,7 @@ export const getId = () => {
 };
 
 export const getTicketsApi = (id) => {
-   
-  
-    return axios.get(`https://front-test.beta.aviasales.ru/tickets?searchId=${id}`)
-     
+    return axios.get(`https://front-test.beta.aviasales.ru/tickets?searchId=${id}`)  
 };
 
 

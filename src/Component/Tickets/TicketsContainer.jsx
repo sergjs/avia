@@ -33,7 +33,7 @@ class TicketsContainer extends React.Component {
             this.state.num.splice(index, 1)
             return this.state.num;
         }
-    }
+    };
 
 
     getFilter = (num) => {
@@ -45,7 +45,7 @@ class TicketsContainer extends React.Component {
                 arr.filter(p => (p.segments[0].stops.length == item && p.segments[1].stops.length == item)))
             ); 
         this.setState({ ticketsLocal: newArr.flat() });
-    }
+    };
 
     returnBoolean = (num) => {
         for (let key of this.state.num) {
@@ -53,7 +53,7 @@ class TicketsContainer extends React.Component {
                 return true;
             }
         }
-    }
+    };
 
     render() {
         return <div className={fil.page_tickets}>
@@ -80,13 +80,13 @@ class TicketsContainer extends React.Component {
         </div>
 
     }
-}
+};
 let mapStateToPropse = (state) => {
     return {
         ID: state.app.ID,
         tickets: state.app.tickets,
         initialize: state.app.initialize,
     }
-}
+};
 export default
     connect(mapStateToPropse, { getСheapPriceDispatch, getQuickTicketDispatch })(TicketsContainer);

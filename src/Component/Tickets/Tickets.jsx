@@ -59,7 +59,7 @@ const Tickets = ({ tickets, getСheapPriceDispatch, getQuickTicketDispatch, isBu
             <button onClick={() => { getQuickTicketDispatch(tickets); getActiveCss(2) }}
                 className={isActiveSecondButton ? css.sorting_buttun + ' ' + css.active : css.sorting_buttun}><p>самый быстрый</p></button>
         </div >
-        <div> {Object.values(newTicketArr).map((index, key) =>
+        <div> {Object.values(newTicketArr).map((index) =>
             <div className={css.tickets_container}>
                 <div className={css.container_price}>
                     <div className={css.price}>{getNumberForSpace(index.price) + ' Р'}</div>

@@ -4,7 +4,6 @@ import fil from './Filter.module.css';
 const FilterPart = ({ num, text, getFilter, returnBoolean }) => {
 
     return (
-
         <div className={fil.checkbox_filter}>
             <label className={fil.checkbox}>
                 <input type={"checkbox"}  checked={returnBoolean(num)}
@@ -15,7 +14,6 @@ const FilterPart = ({ num, text, getFilter, returnBoolean }) => {
                 </div>
             </label>
         </div>
-
     )
 };
 

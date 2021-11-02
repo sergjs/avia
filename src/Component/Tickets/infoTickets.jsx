@@ -9,7 +9,7 @@ const InfoTickets = ({index}) => {
         let hours = datemin.getHours() < 10 ? '0'+datemin.getHours()  : datemin.getHours();
         let min = datemin.getMinutes() < 10 ? '0'+datemin.getMinutes() : datemin.getMinutes();
         return sp[3] + ':' + sp[4] + ' - ' +hours+':'+min;
-    }
+    };
 
     const getTimeWay = (duration) => {
         return Math.trunc(duration / 60) + 'ч ' + duration % 60 + 'м';
@@ -22,7 +22,7 @@ const InfoTickets = ({index}) => {
             return "без пересадок"
         } else { 
             return stops.length  + ' пересадки'}
-    } 
+    };
     
     return <div className={css.blog_departure}>
         <div className={css.blog_departure_flex}>
