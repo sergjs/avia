@@ -100,9 +100,21 @@
         margin: 20px auto 0;
         width: 502px;
     }
+    .checkbox_filter{
+        width: 502px;
+    }
+    .checkbox__text{
+        width: 462px;
+    }
 }
 @media (max-width: 520px) {
     .wraper_filter{
         width: 360px;
+    }
+    .checkbox_filter{
+        width: 360px;
+    }
+    .checkbox__text{
+        width: 320px;
     }
 }
