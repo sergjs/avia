@@ -106,6 +106,12 @@
     .checkbox__text{
         width: 462px;
     }
+    .error{
+        text-align: center;
+    }
+    .error p{
+        text-align: center;
+    }
 }
 @media (max-width: 520px) {
     .wraper_filter{
@@ -116,5 +122,11 @@
     }
     .checkbox__text{
         width: 320px;
+    }
+    .error{
+        text-align: center;
+    }
+    .error p{
+        text-align: center;
     }
 }
