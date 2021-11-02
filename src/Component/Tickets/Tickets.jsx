@@ -50,7 +50,7 @@ const Tickets = ({ tickets, getСheapPriceDispatch, getQuickTicketDispatch, isBu
         }
     };
 
-    return <div className={css.wrapper}>
+    return <div className={css.wrapper}> 
         <img src={logo} alt="" className={css.logo} />
         <div className={css.sorting}>
             <button onClick={() => { getСheapPriceDispatch(tickets); getActiveCss(1) }}

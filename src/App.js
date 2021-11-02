@@ -1,6 +1,6 @@
 import React from 'react';
 import ap from'./App.module.css';
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { connect, Provider } from 'react-redux';
 import { startDispatch } from './redux/app-reducer';
 import preloader from './img/preloader.gif'
@@ -18,12 +18,7 @@ class App extends React.Component {
       return <div> <img src={preloader} className={ap.preloader} /> </div>
     } 
     return (
-
-             <Route path='' render={() => {
-          return <React.Suspense fallback={<div>Загрузка...</div>}>
-                <TicketsContainer />
-          </React.Suspense>
-        }} />
+     <TicketsContainer />
     );
   }
 }

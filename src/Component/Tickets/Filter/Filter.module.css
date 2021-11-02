@@ -91,3 +91,18 @@
 .checkbox input:checked + .checkbox__text:before {
     border: 1px solid #2196F3;
 }
+
+@media (max-width: 780px) {
+    .page_tickets{
+        display: block;
+    }
+    .wraper_filter{
+        margin: 20px auto 0;
+        width: 502px;
+    }
+}
+@media (max-width: 520px) {
+    .wraper_filter{
+        width: 360px;
+    }
+}

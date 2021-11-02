@@ -162,3 +162,36 @@
 .logo_error {
     margin-top: 60px;
 }
+
+@media (max-width: 780px) {
+    .logo {
+        display: none;
+    }
+}
+@media (max-width: 520px) {
+    .sorting{
+        width: 360px;
+    }
+    .tickets_container{
+        width: 360px;
+    }
+    .container_price{
+        width: 335px;
+    }
+    .blog_departure_flex{
+        width: 100px;
+        margin-right: 20px;
+    }
+    .blog_departure {
+        margin-left: 10px;
+    }
+    .blog_departure_top{
+        margin-left: 0;
+    }
+    .area_button_add {
+        width: 360px;
+    }
+    .button_add {
+        width: 360px;
+    }
+}
