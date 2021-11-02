@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sergjs/avia.git/static/css/main.69ef78be.chunk.css",
+    "main.js": "/sergjs/avia.git/static/js/main.955214f9.chunk.js",
+    "main.js.map": "/sergjs/avia.git/static/js/main.955214f9.chunk.js.map",
+    "runtime-main.js": "/sergjs/avia.git/static/js/runtime-main.7dc702f5.js",
+    "runtime-main.js.map": "/sergjs/avia.git/static/js/runtime-main.7dc702f5.js.map",
+    "static/js/2.cebd126f.chunk.js": "/sergjs/avia.git/static/js/2.cebd126f.chunk.js",
+    "static/js/2.cebd126f.chunk.js.map": "/sergjs/avia.git/static/js/2.cebd126f.chunk.js.map",
+    "static/js/3.345d9057.chunk.js": "/sergjs/avia.git/static/js/3.345d9057.chunk.js",
+    "static/js/3.345d9057.chunk.js.map": "/sergjs/avia.git/static/js/3.345d9057.chunk.js.map",
+    "index.html": "/sergjs/avia.git/index.html",
+    "static/css/main.69ef78be.chunk.css.map": "/sergjs/avia.git/static/css/main.69ef78be.chunk.css.map",
+    "static/js/2.cebd126f.chunk.js.LICENSE.txt": "/sergjs/avia.git/static/js/2.cebd126f.chunk.js.LICENSE.txt",
+    "static/media/Logo.0293420c.png": "/sergjs/avia.git/static/media/Logo.0293420c.png",
+    "static/media/preloader.c2792c0d.gif": "/sergjs/avia.git/static/media/preloader.c2792c0d.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7dc702f5.js",
+    "static/js/2.cebd126f.chunk.js",
+    "static/css/main.69ef78be.chunk.css",
+    "static/js/main.955214f9.chunk.js"
+  ]
+}
